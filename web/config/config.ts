@@ -46,7 +46,7 @@ export default defineConfig({
     logo: '/favicon.png',
   },
   base: '/gw-dash/',
-  publicPath: '/gw-dash/',
+  publicPath: '/',
   define: {
     REACT_APP_ENV: REACT_APP_ENV || false,
     'process.env': {
